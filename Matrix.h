@@ -12,11 +12,11 @@ namespace Matrix {
 
     class Matrix {
     public:
+        double **matrix;
+
         explicit Matrix(int n);
 
         double get_determinant() const;
-
-        double **matrix;
 
         void input_matrix() const;
 

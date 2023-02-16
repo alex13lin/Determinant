@@ -11,7 +11,7 @@ namespace Matrix {
         for (int i = 0; i < n; ++i)matrix[i] = new double[_n];
     }
 
-    double Matrix::get_determinant() const{
+    double Matrix::get_determinant() const {
         if (_n == 1)return matrix[0][0];
         else if (_n == 2)return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
         else return determinant_calculate();
@@ -34,7 +34,6 @@ namespace Matrix {
         m.delete_matrix();
         return det;
     }
-
 
     void Matrix::delete_matrix() const {
         for (int i = 0; i < _n; ++i)delete[] matrix[i];
