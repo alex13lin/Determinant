@@ -1,0 +1,5 @@
+# ninja log v5
+3	380	6982906201520657	CMakeFiles/Determinant.dir/main.cpp.obj	cc8a8a11608ef698
+3	403	6982905840847367	CMakeFiles/Determinant.dir/Matrix.cpp.obj	9b749d3a5dfc3407
+380	481	6982906202498033	Determinant.exe	cae09ae85dc04c0d
+1	160	6982863491245575	build.ninja	9cd8bfaf9a19c502
