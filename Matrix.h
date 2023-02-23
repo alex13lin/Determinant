@@ -12,7 +12,6 @@ namespace Matrix {
 
     class Matrix {
     public:
-        double **matrix;
 
         explicit Matrix(int n);
 
@@ -22,10 +21,15 @@ namespace Matrix {
 
         void delete_matrix() const;
 
+        double** get_matrix() const;
+
     private:
         double determinant_calculate() const;
 
+        double **_matrix;
         int _n;
+
+
     };
 
 } // Matrix

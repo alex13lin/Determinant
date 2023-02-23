@@ -1,8 +1,8 @@
 # ninja log v5
-3	380	6982906201520657	CMakeFiles/Determinant.dir/main.cpp.obj	cc8a8a11608ef698
-3	403	6982905840847367	CMakeFiles/Determinant.dir/Matrix.cpp.obj	9b749d3a5dfc3407
-380	481	6982906202498033	Determinant.exe	cae09ae85dc04c0d
-1	160	6982863491245575	build.ninja	9cd8bfaf9a19c502
-3	384	6982917590224214	CMakeFiles/Determinant.dir/Matrix.cpp.obj	9b749d3a5dfc3407
 8	418	6982917590573288	CMakeFiles/Determinant.dir/main.cpp.obj	cc8a8a11608ef698
+3	384	6982917590224214	CMakeFiles/Determinant.dir/Matrix.cpp.obj	9b749d3a5dfc3407
 418	517	6982917591530731	Determinant.exe	cae09ae85dc04c0d
+1	160	6988207421976273	build.ninja	9cd8bfaf9a19c502
+8	499	6988209774164359	CMakeFiles/Determinant.dir/main.cpp.obj	cc8a8a11608ef698
+4	499	6988209774164359	CMakeFiles/Determinant.dir/Matrix.cpp.obj	9b749d3a5dfc3407
+500	792	6988209777076574	Determinant.exe	cae09ae85dc04c0d
