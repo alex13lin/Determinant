@@ -15,16 +15,16 @@ public:
 
     ~Determinant();
 
-    double get_determinant() const;
+    long long get_determinant() const;
 
     void input_matrix() const;
 
-    void set_value(int,int,double);
+    void set_value(int,int,long long);
 
 private:
-    double determinant_calculator() const;
+    long long determinant_calculator() const;
 
-    double **matrix_;
+    long long **matrix_;
     int n_;
 
 

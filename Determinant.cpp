@@ -6,8 +6,8 @@
 
 Determinant::Determinant(int n) {
     n_ = n;
-    matrix_ = new double *[n_];
-    for (int i = 0; i < n_; i++)matrix_[i] = new double[n_];
+    matrix_ = new long long *[n_];
+    for (int i = 0; i < n_; i++)matrix_[i] = new long long[n_];
 }
 
 Determinant::~Determinant() {
@@ -15,7 +15,7 @@ Determinant::~Determinant() {
     delete[] matrix_;
 }
 
-double Determinant::get_determinant() const {
+long long Determinant::get_determinant() const {
     if (n_ == 1)return matrix_[0][0];
     else if (n_ == 2)return matrix_[0][0] * matrix_[1][1] - matrix_[0][1] * matrix_[1][0];
     else return determinant_calculator();
@@ -29,8 +29,8 @@ void Determinant::input_matrix() const {
         }
 }
 
-double Determinant::determinant_calculator() const {
-    double det = 0;
+long long Determinant::determinant_calculator() const {
+    long long det = 0;
     auto *m = new Determinant(n_ - 1);
     for (int k = 0; k < n_; k++) {
         for (int i = 1, minor_i = 0; i < n_; i++, minor_i++) {
@@ -44,6 +44,6 @@ double Determinant::determinant_calculator() const {
     return det;
 }
 
-void Determinant::set_value(int i, int j, double value) {
+void Determinant::set_value(int i, int j, long long value) {
     matrix_[i][j] = value;
 }
